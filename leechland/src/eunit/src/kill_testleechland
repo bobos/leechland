@@ -1,0 +1,10 @@
+#! /usr/bin/sh
+ps -ef|grep ${USER}|grep leechland_test_leechmonger|awk '{print $2}'|while read A
+do
+	kill -9 $A 2> /dev/null
+done
+ps -ef|grep ${USER}|grep leechland_testnode|awk '{print $2}'|while read A
+do
+	kill -9 $A 2> /dev/null
+done
+echo test environment cleaned up!

@@ -1,0 +1,965 @@
+11:50:21.479040 leechland_slave:10:slave starts on node:leechland_test_minion8@selnx234
+11:50:21.479119 leechland_slave:19:send slave up from leechland_test_minion8@selnx234 to [{leechland_lord,
+                                                                                           leechland_test_leechmonger@selnx234}]
+11:50:21.726003 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.537.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:21.726589 leechland_slave:96:start application test_adder
+11:50:21.728245 leechland_slave:125:found user applications [] to stop
+11:50:21.728474 leechland_slave:132:found user modules [] to delete
+11:50:21.733066 leechland_slave:80:application test_adder is started
+11:50:22.728335 leechland_slave:100:application test_adder found
+11:50:22.723397 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.537.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:22.724577 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.561.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:22.731605 leechland_slave:80:application test_adder is started
+11:50:23.725881 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.561.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:23.726091 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.558.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:23.726285 leechland_slave:100:application test_adder found
+11:50:23.727621 leechland_slave:80:application test_adder is started
+11:50:24.726781 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.558.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:24.727578 leechland_slave:100:application test_adder found
+11:50:24.726944 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.563.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:24.728058 leechland_slave:80:application test_adder is started
+11:50:25.730488 leechland_slave:100:application test_adder found
+11:50:25.730027 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.563.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:25.730253 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.555.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:25.731575 leechland_slave:80:application test_adder is started
+11:50:26.733419 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.555.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:26.733960 leechland_slave:100:application test_adder found
+11:50:26.733824 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.584.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:26.734283 leechland_slave:80:application test_adder is started
+11:50:27.737827 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.584.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:27.739220 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.598.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:27.739578 leechland_slave:80:application test_adder is started
+11:50:27.739256 leechland_slave:100:application test_adder found
+11:50:28.740272 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.598.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:28.741109 leechland_slave:80:application test_adder is started
+11:50:28.740867 leechland_slave:100:application test_adder found
+11:50:28.740514 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.594.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:29.744921 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.594.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:29.745504 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.601.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:29.750810 leechland_slave:100:application test_adder found
+11:50:29.753861 leechland_slave:80:application test_adder is started
+11:50:30.747955 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.601.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:30.748838 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.603.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:30.749356 leechland_slave:100:application test_adder found
+11:50:30.749976 leechland_slave:80:application test_adder is started
+11:50:31.751969 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.603.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:32.187280 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1115.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:32.188174 leechland_slave:80:application test_adder is started
+11:50:32.187891 leechland_slave:100:application test_adder found
+11:50:32.928455 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1115.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:32.938115 leechland_slave:100:application test_adder found
+11:50:32.938079 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1123.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:32.938422 leechland_slave:80:application test_adder is started
+11:50:33.929206 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1123.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:33.930664 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1126.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        2,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {9,10}}
+11:50:33.931185 leechland_slave:100:application test_adder found
+11:50:33.932295 leechland_slave:80:application test_adder is started
+11:50:34.933399 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1126.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            2,19}
+11:50:34.937626 leechland_slave:100:application test_adder found
+11:50:34.937650 leechland_slave:80:application test_adder is started
+11:50:34.937576 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1139.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:35.936547 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1139.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:35.937147 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1125.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:35.938204 leechland_slave:80:application test_adder is started
+11:50:35.937622 leechland_slave:100:application test_adder found
+11:50:36.939836 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1125.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:36.941261 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1149.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        2,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {9,10}}
+11:50:36.941583 leechland_slave:100:application test_adder found
+11:50:36.941905 leechland_slave:80:application test_adder is started
+11:50:37.943894 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1149.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            2,19}
+11:50:37.944150 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1180.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        2,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {9,10}}
+11:50:37.945535 leechland_slave:100:application test_adder found
+11:50:37.945914 leechland_slave:80:application test_adder is started
+11:50:38.948563 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1180.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            2,19}
+11:50:38.949606 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1195.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        2,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {9,10}}
+11:50:38.950897 leechland_slave:100:application test_adder found
+11:50:38.952240 leechland_slave:80:application test_adder is started
+11:50:39.958452 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1195.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            2,19}
+11:50:39.966861 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1204.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        2,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {9,10}}
+11:50:39.967668 leechland_slave:100:application test_adder found
+11:50:39.970274 leechland_slave:80:application test_adder is started
+11:50:40.962238 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1204.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            2,19}
+11:50:40.963659 leechland_slave:100:application test_adder found
+11:50:40.963563 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1216.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:40.964326 leechland_slave:80:application test_adder is started
+11:50:41.961303 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1216.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:41.962870 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1219.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:41.962919 leechland_slave:100:application test_adder found
+11:50:41.963336 leechland_slave:80:application test_adder is started
+11:50:42.963965 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1219.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:42.965035 leechland_slave:80:application test_adder is started
+11:50:42.964812 leechland_slave:100:application test_adder found
+11:50:42.964391 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1221.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:43.970203 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1221.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:43.975542 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1229.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:43.975586 leechland_slave:100:application test_adder found
+11:50:43.977708 leechland_slave:80:application test_adder is started
+11:50:44.984981 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1229.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:44.985484 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1231.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:44.986359 leechland_slave:100:application test_adder found
+11:50:44.986498 leechland_slave:80:application test_adder is started
+11:50:45.979828 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1231.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:45.980459 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1234.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:45.981712 leechland_slave:100:application test_adder found
+11:50:45.982679 leechland_slave:80:application test_adder is started
+11:50:47.004943 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1234.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:47.008819 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1214.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        2,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {9,10}}
+11:50:47.009494 leechland_slave:100:application test_adder found
+11:50:47.011829 leechland_slave:80:application test_adder is started
+11:50:48.004547 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1214.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            2,19}
+11:50:48.008361 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1382.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:48.009008 leechland_slave:100:application test_adder found
+11:50:48.009732 leechland_slave:80:application test_adder is started
+11:50:49.008706 leechland_slave:100:application test_adder found
+11:50:49.008366 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1384.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:49.008118 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1382.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:49.010899 leechland_slave:80:application test_adder is started
+11:50:50.010792 leechland_slave:100:application test_adder found
+11:50:50.010360 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1384.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:50.010593 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1386.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:50.010988 leechland_slave:80:application test_adder is started
+11:50:51.013873 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1386.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:51.013938 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1388.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:51.014204 leechland_slave:100:application test_adder found
+11:50:51.016213 leechland_slave:80:application test_adder is started
+11:50:52.016243 leechland_slave:100:application test_adder found
+11:50:52.015869 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1388.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:52.016040 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1390.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:52.016437 leechland_slave:80:application test_adder is started
+11:50:53.016555 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1390.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:53.016800 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1391.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:53.017044 leechland_slave:100:application test_adder found
+11:50:53.018294 leechland_slave:80:application test_adder is started
+11:50:54.019726 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1391.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:54.020301 leechland_slave:100:application test_adder found
+11:50:54.020515 leechland_slave:80:application test_adder is started
+11:50:54.020063 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1425.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:55.023143 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1425.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:55.023720 leechland_slave:80:application test_adder is started
+11:50:55.023689 leechland_slave:100:application test_adder found
+11:50:55.023412 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1420.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:56.024050 leechland_slave:100:application test_adder found
+11:50:56.023528 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1420.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:56.023795 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1438.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:56.024288 leechland_slave:80:application test_adder is started
+11:50:57.026698 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1438.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:57.026944 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1433.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:57.027254 leechland_slave:100:application test_adder found
+11:50:57.028509 leechland_slave:80:application test_adder is started
+11:50:58.030900 leechland_slave:100:application test_adder found
+11:50:58.030657 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1429.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:58.030428 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1433.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:58.031738 leechland_slave:80:application test_adder is started
+11:50:59.033687 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1429.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:50:59.034303 leechland_slave:100:application test_adder found
+11:50:59.033885 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1427.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:50:59.034790 leechland_slave:80:application test_adder is started
+11:51:00.044481 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1427.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:00.049257 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1414.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:00.050576 leechland_slave:100:application test_adder found
+11:51:00.051092 leechland_slave:80:application test_adder is started
+11:51:01.048235 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1414.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:01.049849 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1411.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:01.050428 leechland_slave:100:application test_adder found
+11:51:01.050451 leechland_slave:80:application test_adder is started
+11:51:02.044937 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1411.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:02.045665 leechland_slave:100:application test_adder found
+11:51:02.045180 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1409.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:02.046102 leechland_slave:80:application test_adder is started
+11:51:03.049211 leechland_slave:100:application test_adder found
+11:51:03.048738 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1409.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:03.048990 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1407.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:03.049412 leechland_slave:80:application test_adder is started
+11:51:04.053221 leechland_slave:100:application test_adder found
+11:51:04.052261 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1407.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:04.052739 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1503.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:04.053572 leechland_slave:80:application test_adder is started
+11:51:05.052984 leechland_slave:100:application test_adder found
+11:51:05.052445 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1503.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:05.052738 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1501.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:05.053239 leechland_slave:80:application test_adder is started
+11:51:06.055619 leechland_slave:100:application test_adder found
+11:51:06.055504 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1501.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:06.055561 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1499.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:06.055912 leechland_slave:80:application test_adder is started
+11:51:07.058597 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1499.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:07.058753 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1496.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:07.059001 leechland_slave:100:application test_adder found
+11:51:07.060358 leechland_slave:80:application test_adder is started
+11:51:08.062027 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1496.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:08.062766 leechland_slave:100:application test_adder found
+11:51:08.062271 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1494.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:08.063361 leechland_slave:80:application test_adder is started
+11:51:09.062540 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1494.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:09.062852 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1492.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:09.063023 leechland_slave:100:application test_adder found
+11:51:09.064234 leechland_slave:80:application test_adder is started
+11:51:10.069401 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1492.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:10.070298 leechland_slave:100:application test_adder found
+11:51:10.070053 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1490.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:10.071125 leechland_slave:80:application test_adder is started
+11:51:11.077577 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1490.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:11.080376 leechland_slave:100:application test_adder found
+11:51:11.080087 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1488.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:11.083649 leechland_slave:80:application test_adder is started
+11:51:12.078920 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1488.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:12.079334 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1486.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:12.080225 leechland_slave:100:application test_adder found
+11:51:12.080460 leechland_slave:80:application test_adder is started
+11:51:13.102303 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1486.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:13.102526 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1484.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:13.103006 leechland_slave:100:application test_adder found
+11:51:13.105053 leechland_slave:80:application test_adder is started
+11:51:14.088383 leechland_slave:100:application test_adder found
+11:51:14.087803 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1484.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:14.088140 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1482.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:14.089041 leechland_slave:80:application test_adder is started
+11:51:15.093423 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1482.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:15.101041 leechland_slave:100:application test_adder found
+11:51:15.095148 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1480.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:15.102386 leechland_slave:80:application test_adder is started
+11:51:16.097140 leechland_slave:100:application test_adder found
+11:51:16.096565 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1480.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:16.096906 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1473.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:16.097390 leechland_slave:80:application test_adder is started
+11:51:17.100567 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1473.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:17.101115 leechland_slave:100:application test_adder found
+11:51:17.101057 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1475.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:17.101178 leechland_slave:80:application test_adder is started
+11:51:18.106755 leechland_slave:100:application test_adder found
+11:51:18.106713 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1477.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:18.106827 leechland_slave:80:application test_adder is started
+11:51:18.106305 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1475.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:19.104869 leechland_slave:100:application test_adder found
+11:51:19.104416 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1477.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:19.104632 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1439.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:19.105137 leechland_slave:80:application test_adder is started
+11:51:20.108958 leechland_slave:100:application test_adder found
+11:51:20.108275 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1439.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:20.108738 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1404.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:20.109160 leechland_slave:80:application test_adder is started
+11:51:21.110632 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1404.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}
+11:51:21.110846 leechland_slave:34:received leech_task:{leech_task,
+                                                        {<6413.1505.0>,
+                                                         leechland_testnode1@selnx234},
+                                                        1,
+                                                        {callback_info,
+                                                         test_adder,
+                                                         test_adder,"./ebin"},
+                                                        {8,9}}
+11:51:21.111035 leechland_slave:100:application test_adder found
+11:51:21.112131 leechland_slave:80:application test_adder is started
+11:51:22.113842 leechland_slave:39:send response to master:{{slave,
+                                                             custom_group1,
+                                                             leechland_test_minion8@selnx234},
+                                                            {<6413.1505.0>,
+                                                             leechland_testnode1@selnx234},
+                                                            1,17}

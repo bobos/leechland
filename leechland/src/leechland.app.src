@@ -1,0 +1,12 @@
+{application, leechland,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {leechland_app, []}},
+  {env, []}
+ ]}.

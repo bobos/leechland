@@ -1,0 +1,13 @@
+#!/usr/bin/python
+
+from commands import getoutput
+from os import system
+
+HostName = getoutput('hostname')
+
+ErlCmd = 'erl -rsh ssh -sname leechland_test_leechmonger -noshell -setcookie'
+ErlCmd += ' LEECHLAND_INTEGRATION_TEST -s leechland start -slavename'
+ErlCmd += ' leechland_test_minion -slaves '+HostName+',2 -logs ./ -pa ./ebin'
+
+print ErlCmd
+system(ErlCmd)

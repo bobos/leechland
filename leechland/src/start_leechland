@@ -1,0 +1,48 @@
+#!/usr/bin/python
+
+import sys
+import getopt
+from os import system
+
+def usage():
+    print "usage:\n    start_leechland [--master-name=mastername] [--slave-name=slavename] "\
+          "[--cookie=cookie] [--config-file=filepath] [--logs=logpath] [--erl-path=erlpath]\n"\
+          "exmaple:\n    start_leechland --master leechMonger --slave minion "\
+          "--cookie LEECHLAND --config-file /home/eboosun/leechland/server_list "\
+          "--logs /home/eboosun/leechland --erl-path /home/eboosun/frodo/ebin"
+
+def main(Args):
+    if '-h' in Args or len(Args) != 12:
+        usage()
+        return
+
+    OptList, Args = getopt.getopt(Args, '', ['master-name=','slave-name=','erl-path=',\
+                                             'cookie=','config-file=', 'logs='])
+    D = dict(OptList)
+    MasterName = D['--master-name']
+    SlaveName = D['--slave-name']
+    Cookie = D['--cookie']
+    ConfigFile = D['--config-file']
+    Logs = D['--logs']
+    ErlPath = D['--erl-path']
+    Serverlist = ''
+    FileObject = open(ConfigFile, 'r')
+    for Line in FileObject:
+        if Line.find('#') != 0:
+            Serverlist += Line.replace('\n', ' ')
+    FileObject.close()
+
+    if SlaveName.find('@') != -1:
+        print "Warning: character \'@\' is not allowed to be used as part" \
+              " of slave name:%s" %(SlaveName)
+        return
+
+    ErlCmd = 'erl -rsh ssh -sname '+MasterName+' -setcookie '+Cookie
+    ErlCmd += ' -s leechland start -slavename '+SlaveName+' -slaves '+Serverlist
+    ErlCmd += ' -logs '+Logs+' -pa '+ErlPath+' -connect_all false'
+
+    print ErlCmd
+    system(ErlCmd)
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
