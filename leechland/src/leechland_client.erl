@@ -22,6 +22,7 @@
          get_master_state/2,
          create_group/3,
          delete_group/3,
+         reboot_group/3,
          check_group/4,
          add_server/3,
          add_server/4,
@@ -130,6 +131,17 @@ delete_group(GroupName, Pincode, DeployFile) when is_atom(GroupName),
                                                   is_list(Pincode),
                                                   is_list(DeployFile) ->
     Msg = {delete_group, {self(),GroupName,term_to_binary(Pincode)}},
+    send_to_master(DeployFile, Msg, 60*1000).
+
+%% reboot all slaves in a custom group
+%% all tasks for this group will be discarded, a group_is_gone msg will be
+%% sent to all clients which are using this group
+-spec reboot_group(atom(), string(), string()) 
+        -> ok|no_such_group|wrong_pincode|master_unreachable.
+reboot_group(GroupName, Pincode, DeployFile) when is_atom(GroupName),
+                                                  is_list(Pincode),
+                                                  is_list(DeployFile) ->
+    Msg = {reboot_group, {self(),GroupName,term_to_binary(Pincode)}},
     send_to_master(DeployFile, Msg, 60*1000).
 
 %% check if the group is accessiable

@@ -134,6 +134,11 @@ main_loop(State)->
             Client ! Resp,
             main_loop(State1);
 
+        {reboot_group, {Client,GroupName,Pincode}} ->
+            ?DBG("reboot group ~p~n", [GroupName]),
+            Client ! ok,
+            main_loop(reboot_group(GroupName, Pincode, State));
+
         {check_group, GroupName, Pincode, Client} ->
             ?DBG("check group [~p] from client ~p~n", [GroupName, Client]),
             Client ! check_group(GroupName,Pincode,State),
@@ -529,6 +534,19 @@ remove_from_group(Slave, State) ->
             Slaves = lists:keydelete(Slave#slave.node, 2,
                                      Group#slave_group.slaves),
             put_group(Group#slave_group{slaves=Slaves}, State)
+    end.
+
+-spec reboot_group(atom(), binary(), #main_state{}) -> #main_state{}.
+reboot_group(GroupName, PinCode, State) ->
+    case check_group(GroupName, PinCode, State) of
+        ok ->
+           {ok, Group} = get_group(GroupName, State),
+           %% stop all slaves
+           lists:foreach(fun({_,Slave,_}) -> stop_slave(Slave) end, 
+                         Group#slave_group.slaves),
+           remove_all_tasks(GroupName, State);
+        _ ->
+           State
     end.
 
 %%----------------------------------------------------------------------------
